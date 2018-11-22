@@ -146,7 +146,7 @@ class Picker extends React.Component<IPickerProp & IPickerProps, any> {
           onLayout={index === 0 ? this.onItemLayout : undefined}
           key={item.key}
         >
-          <Text style={totalStyle} numberOfLines={1}>
+          <Text style={totalStyle}>
             {item.props.label}
           </Text>
         </View>
